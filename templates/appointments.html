@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <h1>Appointments</h1>
+
+    <table> 
+        <th>
+            <th>Email</th>
+            <th>Appointment date</th>
+        </th>
+        {% for appointment in appointments %}
+        <tr> 
+            <td>{{ appointment.id }}</td>
+            <td>{{ appointment.email }}</td>
+            <td>{{ appointment.date }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body { 
+    font-family: 'Poppins', sans-serif;
+}
+
+.form { 
+  width: 50vw;
+  height: 50vh;
+  background-color: gray;
+  display: flex;
+}
+
+h1 { 
+  text-align: center;
+}
+
+.appointment_form { 
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:400px;
+    margin: auto auto;
+}
+
+input { 
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    border: solid 1px grey;
+}
+
+button { 
+    padding: 12px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
