@@ -1,9 +1,6 @@
 from flask import Flask, render_template, request, flash
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.sql import func
-import os
-
-basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
 
